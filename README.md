@@ -22,7 +22,7 @@
   <!--[![Backers on Open Collective](https://opencollective.com/nest/backers/badge.svg)](https://opencollective.com/nest#backer)
   [![Sponsors on Open Collective](https://opencollective.com/nest/sponsors/badge.svg)](https://opencollective.com/nest#sponsor)-->
 
-# **Telegram Weather Bot**
+# **Telegram Weather Bot - @ktnWeatherBot** 
 
 A Telegram bot built with **NestJS** that provides daily weather updates and supports natural language queries. Users can subscribe to receive weather updates for specific cities, and admins can manage bot settings via an admin panel.
 
