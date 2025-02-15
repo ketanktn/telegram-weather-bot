@@ -43,7 +43,7 @@ A Telegram bot built with **NestJS** that provides daily weather updates and sup
 ## **Technologies Used**
 - **Backend:** NestJS
 - **Telegram Bot:** Telegraf
-- **Weather API:** OpenWeatherMap
+- **Weather API:** WeatherApi
 - **NLP:** Natural.js
 - **Cron Jobs:** @nestjs/schedule
 - **Admin Panel:** Google OAuth for authentication
@@ -55,7 +55,7 @@ Before running the project, ensure you have the following installed:
 1. **Node.js** (v16 or higher)
 2. **npm** (Node Package Manager)
 3. **Telegram** account (to interact with the bot)
-4. **OpenWeatherMap API Key** (get it from [OpenWeatherMap](https://openweathermap.org/api))
+4. **OpenWeatherMap API Key** (get it from [WeatherApi](https://www.weatherapi.com/))
 5. **Google OAuth Credentials** (for admin panel authentication)
 
 ---
