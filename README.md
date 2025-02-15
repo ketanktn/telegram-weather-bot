@@ -22,6 +22,47 @@
   <!--[![Backers on Open Collective](https://opencollective.com/nest/backers/badge.svg)](https://opencollective.com/nest#backer)
   [![Sponsors on Open Collective](https://opencollective.com/nest/sponsors/badge.svg)](https://opencollective.com/nest#sponsor)-->
 
+# **Telegram Weather Bot**
+
+A Telegram bot built with **NestJS** that provides daily weather updates and supports natural language queries. Users can subscribe to receive weather updates for specific cities, and admins can manage bot settings via an admin panel.
+
+---
+
+## **Features**
+1. **Daily Weather Updates:**
+   - Users can subscribe to receive daily weather updates for their preferred city.
+2. **Natural Language Processing (NLP):**
+   - The bot understands natural language queries like "What's the weather in London?"
+3. **Admin Panel:**
+   - Admins can manage bot settings and user accounts via a web-based admin panel.
+4. **Cron Jobs:**
+   - Automatically sends daily weather updates at 8 AM.
+
+---
+
+## **Technologies Used**
+- **Backend:** NestJS
+- **Telegram Bot:** Telegraf
+- **Weather API:** OpenWeatherMap
+- **NLP:** Natural.js
+- **Cron Jobs:** @nestjs/schedule
+- **Admin Panel:** Google OAuth for authentication
+
+---
+
+## **Prerequisites**
+Before running the project, ensure you have the following installed:
+1. **Node.js** (v16 or higher)
+2. **npm** (Node Package Manager)
+3. **Telegram** account (to interact with the bot)
+4. **OpenWeatherMap API Key** (get it from [OpenWeatherMap](https://openweathermap.org/api))
+5. **Google OAuth Credentials** (for admin panel authentication)
+
+---
+
+
+
+
 ## Description
 
 [Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
